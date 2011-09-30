@@ -1,0 +1,8 @@
+.. -*- restructuredtext -*-
+
+================
+README for jstpl
+================
+
+jstpl is a template engine written in pure Javascript. It provides template 
+compatibility with Django templates syntax and features.
