@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+                    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jstpl.dev.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    //var tpl = "Name";
+    //var c = {};
+    //jstpl.render(tpl,c);
+
+    var tpl = "{%if condition%}True{%else%}False{%endif%}";
+    var c = {condition : true};
+    jstpl.render(tpl,c);   
+});
+</script>
+</head>
+<body>
+ <h1>jstpl Examples</h1>
+ <div class="result">
+ 
+ </div>
+</body>
+</html>

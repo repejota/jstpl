@@ -1,0 +1,5 @@
+/**
+ * Filters
+ *
+ */
+jstpl.filter = {};
