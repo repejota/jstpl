@@ -1,3 +1,16 @@
+FILES = src/jstpl.js \
+        src/jstpl.arraybuilder.js \
+        src/jstpl.stringbuilder.js \
+        src/jstpl.filter.js \
+        src/jstpl.node.comment.js \
+        src/jstpl.node.for.js \
+        src/jstpl.node.if.js \
+        src/jstpl.node.text.js \
+        src/jstpl.node.var.js \
+        src/jstpl.parser.js \
+        src/jstpl.tag.js \
+        src/jstpl.token.js
+
 all: clean prepare doc build dist test
 
 prepare:
